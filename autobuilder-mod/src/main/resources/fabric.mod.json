@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "autobuilder",
+  "version": "${version}",
+  "name": "Builder Client",
+  "description": "Klient s menu na pravý Shift a Schematic Builderem (.litematic, .schem).",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["cz.autobuilder.AutoBuilderClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
